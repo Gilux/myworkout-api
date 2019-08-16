@@ -5,16 +5,17 @@ namespace App\Http\Controllers\Admin;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
-use App\Http\Requests\ExerciseRequest as StoreRequest;
-use App\Http\Requests\ExerciseRequest as UpdateRequest;
+use App\Http\Requests\ProgramRequest as StoreRequest;
+use App\Http\Requests\ProgramRequest as UpdateRequest;
 use Backpack\CRUD\CrudPanel;
+use Illuminate\Support\Facades\Auth;
 
 /**
- * Class ExerciseCrudController
+ * Class ProgramCrudController
  * @package App\Http\Controllers\Admin
  * @property-read CrudPanel $crud
  */
-class ExerciseCrudController extends CrudController
+class ProgramCrudController extends CrudController
 {
     public function setup()
     {
@@ -23,9 +24,9 @@ class ExerciseCrudController extends CrudController
         | CrudPanel Basic Information
         |--------------------------------------------------------------------------
         */
-        $this->crud->setModel('App\Models\Exercise');
-        $this->crud->setRoute(config('backpack.base.route_prefix') . '/exercise');
-        $this->crud->setEntityNameStrings('exercise', 'exercises');
+        $this->crud->setModel('App\Models\Program');
+        $this->crud->setRoute(config('backpack.base.route_prefix') . '/program');
+        $this->crud->setEntityNameStrings('program', 'programs');
 
         /*
         |--------------------------------------------------------------------------
@@ -35,30 +36,22 @@ class ExerciseCrudController extends CrudController
 
         // Columns (in list table)
         $this->crud->addColumn(['name' => 'name', 'type' => 'text', 'label' => 'Name']);
-        $this->crud->addColumn(['name' => 'image', 'type' => 'image', 'label' => 'Image',
-            'prefix' => 'storage/'
-        ]);
-        $this->crud->addColumn(['name' => 'type', 'type' => 'text', 'label' => 'Type']);
+        $this->crud->addColumn(['name' => 'exercices', 'type' => 'text', 'label' => 'Exercice count']);
+
 
         // Fields
+        $this->crud->addField(['name' => 'user_id', 'type' => 'hidden', 'value' => backpack_user()->id]);
         $this->crud->addField(['name' => 'name', 'type' => 'text', 'label' => 'Name', 'attributes' => ['required' => 'required']]);
-        $this->crud->addField(['name' => 'type', 'type' => 'enum', 'label' => 'Type']);
 
-
-        $this->crud->addField(
-            [
-                'label' => 'Exercise type',
-                'name' => 'type',
-                'type' => 'select_from_array',
-                'inline' => true,
-                'options' => [
-                    'hold' => 'Hold',
-                    'reps' => 'N° of reps',
-                    'pause' => 'Pause'
-                ],
-                'default' => "reps"
-            ]
-        );
+        $this->crud->addField(['label' => "Exercises",
+            'type' => 'select2_multiple',
+            'name' => 'exercises', // the method that defines the relationship in your Model
+            'entity' => 'exercise', // the method that defines the relationship in your Model
+            'attribute' => 'name', // foreign key attribute that is shown to user
+            'model' => "App\Models\Exercise", // foreign key model
+            'pivot' => true, // on create&update, do you need to add/delete pivot table entries?
+            // 'select_all' => true, // show Select All and Clear buttons?])
+        ]);
 
         $this->crud->addField([
             'name' => 'image',
@@ -66,13 +59,11 @@ class ExerciseCrudController extends CrudController
             'label' => 'Image',
             'upload' => true,
             'crop' => true, // set to true to allow cropping, false to disable
-            'aspect_ratio' => 1, // ommit or set to 0 to allow any aspect ratio;
+            'aspect_ratio' => 0, // ommit or set to 0 to allow any aspect ratio;
             'prefix' => 'storage/'
         ]);
 
-        $this->crud->addField([ 'label' => "Default Time (secs)", 'type' => 'number', 'name' => 'default_time', "default" => 30]);
-
-        // add asterisk for fields that are required in ExerciseRequest
+        // add asterisk for fields that are required in ProgramRequest
         $this->crud->setRequiredFields(StoreRequest::class, 'create');
         $this->crud->setRequiredFields(UpdateRequest::class, 'edit');
     }
@@ -89,6 +80,7 @@ class ExerciseCrudController extends CrudController
     public function update(UpdateRequest $request)
     {
         // your additional operations before save here
+
         $redirect_location = parent::updateCrud($request);
         // your additional operations after save here
         // use $this->data['entry'] or $this->crud->entry

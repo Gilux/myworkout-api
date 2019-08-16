@@ -2,1107 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="085f0d42-b0c1-4130-b589-b0311fe685aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckIfAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ExerciseRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/BackpackUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Exercise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/backpack/base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/backpack/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elfinder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/gravatar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/prologue/alerts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_07_14_110727_create_exercise_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/css/elfinder.full.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/css/elfinder.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/arrows-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/arrows-normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/crop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/dialogs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_aceeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_ckeditor5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_codemirror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_creativecloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_onlineconvert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_pixlreditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_pixlrexpress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_simplemde.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_tinymce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_tuiimgedit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/edit_zohooffice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/editor-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/icons-big.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/icons-big.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/icons-small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/progress.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/quicklook-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/quicklook-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/resize.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/spinner-mini.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/toolbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/trashmesh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/tui-icon-a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/tui-icon-b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/tui-icon-c.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/tui-icon-d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_box.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_dropbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_dropbox.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_ftp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_ftp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_googledrive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_googledrive.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_local.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_local.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_network.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_network.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_onedrive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_onedrive.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_sql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_sql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_trash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_zip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/img/volume_icon_zip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/elfinder.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/elfinder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/extras/editors.default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/extras/editors.default.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/extras/quicklook.googledocs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/extras/quicklook.googledocs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.LANG.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.fallback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.ug_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/elfinder.zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/cs.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/en.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/es.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/ja.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/ko.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/pl.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/ru.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/i18n/help/sk.html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/proxy/elFinderSupportVer1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/standalonepopup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/standalonepopup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/js/tiny_mce_popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/packages/barryvdh/elfinder/sounds/rm.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/adminlte/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/adminlte/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/adminlte/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/adminlte/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/base/backpack.base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/base/backpack.bold.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/base/backpack.content.is.king.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/docs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/css/pygments-manni.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-3.2.0/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/css/bootstrap-iconpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/css/bootstrap-iconpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/bootstrap-iconpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/bootstrap-iconpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-elusiveicon-2.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-elusiveicon-2.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.2.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.2.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.3.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.3.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-glyphicon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-glyphicon.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-ionicon-1.5.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-ionicon-1.5.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-mapicon-2.1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-mapicon-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-materialdesign-1.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-materialdesign-1.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-octicon-2.1.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-octicon-2.1.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-typicon-2.0.6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-typicon-2.0.6.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-weathericon-1.2.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/bootstrap-iconpicker/js/iconset/iconset-weathericon-1.2.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/elusive-icons-2.0.0/css/elusive-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/elusive-icons-2.0.0/css/elusive-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/elusive-icons-2.0.0/fonts/Elusive-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/elusive-icons-2.0.0/fonts/Elusive-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/elusive-icons-2.0.0/fonts/Elusive-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/elusive-icons-2.0.0/fonts/Elusive-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.0.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.0.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.0.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.0.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.1.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.2.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.2.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.2.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/ionicons-1.5.2/css/ionicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/ionicons-1.5.2/css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/ionicons-1.5.2/fonts/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/ionicons-1.5.2/fonts/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/ionicons-1.5.2/fonts/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/ionicons-1.5.2/fonts/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/map-icons-2.1.0/css/map-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/map-icons-2.1.0/css/map-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/map-icons-2.1.0/fonts/map-icons.dev.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/map-icons-2.1.0/fonts/map-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/map-icons-2.1.0/fonts/map-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/map-icons-2.1.0/fonts/map-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/map-icons-2.1.0/fonts/map-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/material-design-1.1.1/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/material-design-1.1.1/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/material-design-1.1.1/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/material-design-1.1.1/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/material-design-1.1.1/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/material-design-1.1.1/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/octicons-2.1.2/css/octicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/octicons-2.1.2/css/octicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/octicons-2.1.2/fonts/octicons-local.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/octicons-2.1.2/fonts/octicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/octicons-2.1.2/fonts/octicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/octicons-2.1.2/fonts/octicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/octicons-2.1.2/fonts/octicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/typicons-2.0.6/css/typicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/typicons-2.0.6/css/typicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/typicons-2.0.6/fonts/typicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/typicons-2.0.6/fonts/typicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/typicons-2.0.6/fonts/typicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/typicons-2.0.6/fonts/typicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/weather-icons-1.2.0/css/weather-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/weather-icons-1.2.0/css/weather-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/weather-icons-1.2.0/fonts/WeatherIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/weather-icons-1.2.0/fonts/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/weather-icons-1.2.0/fonts/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/weather-icons-1.2.0/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/bootstrap-iconpicker/icon-fonts/weather-icons-1.2.0/fonts/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/CHANGES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/adapters/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/build-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/contents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/new_config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/image/dialogs/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/link/dialogs/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/link/images/hidpi/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/magicline/images/icon-rtl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/icons/hidpi/oembed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/icons/oembed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/libs/jquery.oembed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/oembed/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/pastefromword/filter/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/scayt/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/scayt/dialogs/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/scayt/dialogs/options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/table/dialogs/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/tableselection/styles/tableselection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/widget/images/handle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/css/samples.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/img/github-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/img/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/img/header-separator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/img/navigation-tip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/js/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/js/sf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/api.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/appendto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/assets/inlineall/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/assets/posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/assets/uilanguages/languages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/datafiltering.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/dialog/assets/my_dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/dialog/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/divreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/enterkey/enterkey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/htmlwriter/outputforflash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/htmlwriter/outputhtml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/inlineall.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/inlinebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/inlinetextarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/magicline/magicline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/readonly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/replacebyclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/replacebycode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/sample_posteddata.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/tabindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/toolbar/toolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/uicolor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/uilanguages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/wysiwygarea/fullpage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/old/xhtmlstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/font/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/font/fontello.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/font/fontello.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/font/fontello.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/dialog_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/editor_gecko.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/editor_ie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/editor_ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/images/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/skins/moono-lisa/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ckeditor/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/colorbox.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/daisy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/daisy@2x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/homer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/marylou.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/ohoopee1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/ohoopee2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/content/ohoopee3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example1/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example1/images/border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example1/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example1/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example1/images/loading_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example1/images/overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example2/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example2/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example2/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example3/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example3/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example3/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example4/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example4/images/border1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example4/images/border2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example4/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example5/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example5/images/border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example5/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example5/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example5/images/loading_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/example5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-gr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/i18n/jquery.colorbox-zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/jquery.colorbox-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/jquery.colorbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/colorbox/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/dist/cropper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/dist/cropper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/dist/cropper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/dist/cropper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/bind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/change.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/cropper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/defaults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/handlers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/intro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/outro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/render.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/utilities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/js/variables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/scss/_main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/cropper/src/scss/cropper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/create.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/crud.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/edit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/reorder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/revisions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/css/show.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/img/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/create.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/crud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/edit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/reorder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/revisions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/crud/js/show.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/elfinder/elfinder.backpack.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ladda/ladda-themeless.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ladda/ladda.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ladda/ladda.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ladda/ladda.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ladda/ladda.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ladda/spin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/ladda/spin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/nestedSortable/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/nestedSortable/jquery.mjs.nestedSortable1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/nestedSortable/jquery.mjs.nestedSortable2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/nestedSortable/jquery.ui.theme.font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/nestedSortable/nestedSortable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/pnotify/pnotify.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/pnotify/pnotify.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/release.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2-bootstrap-dick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_en.js.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_pt-PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_ug-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2_locale_zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/select2/select2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/.jshintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/plugin/summernote-ext-fontstyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/plugin/summernote-ext-hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/plugin/summernote-ext-video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/summernote.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/summernote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/summernote/summernote.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/jquery.tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/langs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/code/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/example/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/example/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/example_dependency/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/image/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/layer/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/link/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/media/moxieplayer.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/media/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/print/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/save/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/table/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/template/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/Variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce-small.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/img/wline.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/skin.ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/skin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/charcoal/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/Variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce-small.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/img/wline.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/skin.ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/skin.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/dick-light/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce-small.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/skin.ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/light/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/skin.ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/themes/modern/theme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/backpack/tinymce/tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/ar/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/bg/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/cs/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/da_DK/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/de/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/el/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/en/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/es/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/fr/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/fr_CA/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/it/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/lv/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/nl/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/pt/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/pt_br/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/ro/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/ru/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/tr/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/zh-Hant/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/backpack/zh-cn/crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/400.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/401.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/403.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/405.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/408.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/429.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/500.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/topbar_left_content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/topbar_right_content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/crud/fields/toggle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/elfinder/ckeditor4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/elfinder/elfinder.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/elfinder/filepicker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/elfinder/standalonepopup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/elfinder/tinymce.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/vendor/elfinder/tinymce4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ExerciseProgram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ExerciseProgramController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_16_114940_create_exercise_program_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/backpack/base/inc/sidebar_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/backpack/custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/backpack/custom.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1118,26 +28,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="-41">
+              <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProgramCrudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="387">
+              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/fields/toggle.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Models/Exercise.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="102" column="52" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Program.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#30#69#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1145,8 +67,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_14_110727_create_exercise_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="203">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/BackpackUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -1154,8 +103,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="418">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -1166,6 +124,7 @@
     <findStrings>
       <find>add</find>
       <find>'time'</find>
+      <find>tags</find>
     </findStrings>
     <replaceStrings>
       <replace>'default_time'</replace>
@@ -1185,14 +144,20 @@
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/backpack/toggle.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Exercise.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_07_14_110727_create_exercise_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_workouts_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/public/vendor/adminlte/.npmignore" />
         <option value="$PROJECT_DIR$/public/vendor/adminlte/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_16_114940_create_exercice_program_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_08_16_114940_create_exercise_program_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/Program.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ProgramCrudController.php" />
       </list>
     </option>
   </component>
@@ -1326,28 +291,56 @@
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="backpack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="backpack" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
@@ -1424,7 +417,7 @@
       <workItem from="1563192983472" duration="29000" />
       <workItem from="1565528062778" duration="597000" />
       <workItem from="1565803244331" duration="400000" />
-      <workItem from="1565952999451" duration="1662000" />
+      <workItem from="1565952999451" duration="5337000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1565954424786</created>
@@ -1433,11 +426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565954424786</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1565954717804</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565954717804</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13462000" />
+    <option name="totallyTimeSpent" value="17137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1521,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/BackpackUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1559,49 +552,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Exercise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
-          <folding>
-            <element signature="e#30#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/fields/toggle.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="52" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_14_110727_create_exercise_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/backpack/custom.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/adminlte/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/adminlte/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -1613,17 +568,100 @@
     <entry file="file://$PROJECT_DIR$/public/vendor/adminlte/.npmignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/backpack/crud/fields/toggle.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="102" column="52" selection-start-line="102" selection-start-column="52" selection-end-line="102" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ExerciseProgram.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_16_114940_create_exercise_program_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_14_111555_create_programs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_14_110727_create_exercise_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/BackpackUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Program.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Exercise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ExerciseCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ProgramCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
         </state>
       </provider>
     </entry>

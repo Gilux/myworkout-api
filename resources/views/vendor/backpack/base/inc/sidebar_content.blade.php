@@ -3,3 +3,4 @@
 <li><a href="{{ backpack_url('elfinder') }}"><i class="fa fa-files-o"></i> <span>{{ trans('backpack::crud.file_manager') }}</span></a></li>
 <li><a href='{{ backpack_url('exercise') }}'><i class='fa fa-tag'></i> <span>Exercises</span></a></li>
 <li><a href='{{ backpack_url('user') }}'><i class='fa fa-user'></i> <span>Users</span></a></li>
+<li><a href='{{ backpack_url('program') }}'><i class='fa fa-tag'></i> <span>Programs</span></a></li>
