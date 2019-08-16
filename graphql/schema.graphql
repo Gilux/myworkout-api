@@ -1,0 +1,55 @@
+"A datetime string with format `Y-m-d H:i:s`, e.g. `2018-01-01 13:00:00`."
+scalar DateTime @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\DateTime")
+
+"A date string with format `Y-m-d`, e.g. `2011-05-23`."
+scalar Date @scalar(class: "Nuwave\\Lighthouse\\Schema\\Types\\Scalars\\Date")
+
+type Query {
+    programs: [Program!]! @middleware(checks: ["auth:api"]) @all
+    program(id: Int! @eq): Program @find
+
+    exercise(id: Int! @eq): Exercise @find
+    exercises: [Exercise!]! @all
+
+    me: User @middleware(checks: ["auth:api"]) @auth
+}
+
+type Mutation {
+    register(name: String!, email: String!, password: String!): User! @field(resolver: "App\\GraphQL\\Mutations\\UserMutator@create")
+    login(email: String!, password: String!): AuthToken! @field(resolver: "App\\GraphQL\\Mutations\\UserMutator@login")
+    refresh: AuthToken! @field(resolver: "App\\GraphQL\\Mutations\\UserMutator@refresh") @middleware(checks: ["auth:api"])
+}
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+    created_at: DateTime!
+    updated_at: DateTime!
+}
+
+type Program {
+    id: ID!
+    name: String!
+    exercises: [Exercise]! @field(resolver: "App\\GraphQL\\Queries\\ExercisesInProgram@resolve")
+}
+
+type Exercise {
+    id: ID!
+    name: String!
+    image: String! @field(resolver: "App\\GraphQL\\Queries\\URLResolver@resolve")
+    pivot: ExerciceInProgram
+}
+
+type ExerciceInProgram {
+    program_id: String!
+    exercise_id : String!
+    time: Int!
+}
+
+type AuthToken {
+    access_token: String
+    token_type: String
+    expires_in: Int
+    error: String
+}
